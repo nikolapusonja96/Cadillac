@@ -1,0 +1,531 @@
+*{
+	padding:0;
+	margin:1;
+}
+body{
+	background-color:#e6e6e6;
+}
+#omot{
+	width:100%;
+}
+.cistac{
+	clear:both;
+}
+#header{
+	width:100%;
+	height:200px;
+	padding:1px;
+}
+#meni{
+	width:100%;
+	height:100px;
+}
+#meni ul{
+	padding:20px;
+	text-align:center;
+}
+#meni li{
+	display:inline;
+	font-size:24px;
+	margin-right:5px;
+	padding:30px;
+}
+#meni li a{
+	text-decoration:none;
+	color:black;
+}
+#meni li a:hover{
+	border-top:4px solid #595959;
+	font-family:"Georgia";
+	font-style:italic;
+	color:#595959;
+}
+#logo{
+	width:660px;
+	float:left;
+	float:left;
+	height:200px;
+	background-image:url(img/CadillacLogo1.jpg);
+	background-repeat: no-repeat;
+    background-size: 660px 200px;
+}
+#logo:hover{
+	background-color:#FFFFFA;
+}
+#lg_sg{
+	width:500px;
+	height:200px;
+	float:right;
+	padding-top:30px;
+	
+}
+input[type=button]{
+	padding:10px;
+	margin:20px;
+	text-align:center;
+	width:100px;
+	height:80px;
+	background-color:#999999;
+	font-size:18px;
+	border-radius:30px;
+	color:white;
+}
+input[type=submit]{
+	padding:10px;
+	margin:20px;
+	text-align:center;
+	width:100px;
+	height:80px;
+	background-color:#999999;
+	font-size:18px;
+	border-radius:30px;
+	color:white;
+}
+input[type=button]:hover{
+	background-color:white;
+	font-weight:bold;
+	cursor:pointer;
+	color:black;
+	border:3px solid gray;
+	box-shadow: 5px 5px #bfbfbf;
+}
+input[type=search]{
+	width:500px;
+	height:34px;
+	border:1px solid black;
+	
+}
+input[type=search][placeholder]{
+	font-weight:bold;
+	font-style:italic;
+}
+input[type=submit]:hover{
+	background-color:white;
+	font-weight:bold;
+	cursor:pointer;
+	color:black;
+	border:3px solid gray;
+	box-shadow: 5px 5px #bfbfbf;
+}
+#sredina{
+	width:100%;
+	height:500px;
+	margin-top:1px;
+	padding-top:10px;
+}
+#sredina_galerija{
+	width:100%;
+	margin-top:1px;
+	padding-top:10px;
+	border:1px solid red;
+}
+#sredina_kontakt{
+	width:100%;
+	height:600px;
+	margin-top:1px;
+	padding-top:10px;
+}
+#sredina_logovanje{
+	width:63%;
+	height:370px;
+	margin-top:1px;
+	margin-left:170px;
+	text-align:center;
+	font-weight:bold;
+}
+#sredina_registracija{
+	width:60%;
+	margin-top:1px;
+	margin-left:170px;
+	text-align:center;
+	font-weight:bold;
+}
+.greske {
+	list-style:none;
+	font-weight:normal;
+	color:red;
+}
+.primer{
+	font-weight:bold;
+	color:black;
+}
+#sredina_sredina{
+	width:990px;
+	height:450px;
+	margin-top:1px;
+	padding-bottom:4px;
+	padding-left:260px;
+	padding-top:10px;
+}
+#anketa{
+	float:right;
+	width:300px;
+	height:400px;
+}
+#footer{
+	width:100%;
+	height:230px;
+	padding-bottom:2px;
+	margin-bottom:2px;
+	
+}
+
+#basic{
+	width:400px;
+	margin-left:30px;
+	height:400px;
+	float:left;
+	text-align:justify;
+}
+.show{
+	display:inline;
+}
+#slajder img{
+	display:none;
+}
+#slajder{
+	width:800px;
+	margin-right:20px;
+	height:400px;
+	float:right;
+}
+#mfooter{
+	text-align:center;
+	padding-top:20px;
+	height:150px;
+}
+#mfooter a{
+	text-decoration:none;
+	color:black;
+	font-size:20px;
+}
+#linkovi{
+	height:170px;
+	float:left;
+}
+#linkovi li {
+	padding-left:15px;
+	display:block;
+	list-style-type:none;
+	padding-bottom:10px;
+}
+#linkovi li a{
+	color:black;
+	font-size:20px;
+	text-decoration:none;
+}
+#linkovi li a:hover{
+	color:gray;
+	text-decoration:overline;
+}
+#social_networks{
+	height:150px;
+	width:490px;
+	padding-right:0px;
+}
+.socnet{
+	width:90px;
+	height:90px;
+	float:left;
+	margin:30px;
+	border-radius:70px;
+	background-repeat: no-repeat;
+    background-size: 90px 90px;
+}
+.socnet:hover{
+	border:3px solid black;
+	
+}
+.twitter{
+	background-image:url(img/tw2.png);
+}
+.fb{
+	background-image:url(img/fb3.jpg);
+}
+.instagram{
+	background-image:url(img/instagram2.png);
+	
+}
+
+.all_footer{
+	width:270px;
+	float:right;
+	border-right:5px dotted gray;
+	margin-top:50px;
+	margin-right:90px;
+}
+.all_footer:hover{
+	border:4px dotted gray;
+	border-radius:45px;
+	padding-bottom:1px;
+}
+
+.slikaGalerija{
+	width:320px; 
+	height:320px;
+	float:left;
+	border:1px solid gray;
+	
+}
+img .sredina1{
+	display:block;
+}
+
+
+.slika{
+	width:300px;
+	height:400px;
+	border:1px solid gray;
+	float:left;
+}
+.ime_hover:hover{
+	color:white;
+}
+.text_autor{
+	width:300px;
+	height:200px;
+	border-radius:30px;
+	float:left;
+	margin-right:60px;
+	border:1px solid #737373;
+	text-align:center;
+	font-size:22px;
+	color:#737373;
+}
+#forma_kontakt{
+	width:45%;
+	height:500px;
+	float:left;
+}
+.container{
+	width:90%;
+	min-height:600px;
+	text-align:center;
+}
+.container1{
+	width:90%;
+	text-align:center;
+	min-height:500px;
+}
+.ispisSlike{
+	width:350px;
+	height:350px;
+	float:left;
+}
+#pagination_data{
+	width:90%;
+	height:400px;
+	margin-left:75px;
+	
+}
+#result .th1{
+	padding-top:5px;
+	padding-bottom:5px;
+	color:black;
+	background-color:#cccccc;
+	border-radius:30px;
+	border:2px solid black;
+}
+#h2Event{
+	display:none;
+}
+#result .td1{
+	font-weight:bold;
+	background-color:#cccccc;
+	border: 2px solid black;
+	border-radius:30px;
+}
+#result .td_img{
+	width:300px;
+	height:200px;
+	background-color:#cccccc;
+	border: 2px solid black;
+	border-radius:30px;
+}
+#result .td_img img{
+	border-radius:30px;
+	width:300px;
+	height:200px;
+	padding-top:3px;
+	padding-left:3px;
+	padding-right:3px;
+	
+}
+#result table{
+	border-color:black;
+	border-radius:25px;
+}
+#mapa{
+	width:50%;
+	height:400px;
+	border:2px solid blue;
+	float:right;
+}
+.bold{
+	font-weight:bold;
+	font-family:Arial;
+	font-size:20px;
+	text-align:center;
+}
+input[type=text]{
+	width:190px;
+	padding:10px;
+	color:black;
+	border-radius:4px;
+	border:1px solid gray;
+}
+input[type=password]{
+	width:190px;
+	padding:10px;
+	color:black;
+	border-radius:4px;
+	border:1px solid gray;
+}
+#forma_kontakt input[type=button]{
+	width:100px;
+	height:50px;
+	text-align:center;
+	font-size:24px;
+	color:white;
+	background-color:#80aaff;
+	cursor:pointer;
+}
+
+textarea{
+	color:black;
+	border-radius:4px;
+	border:1px solid gray;
+}
+.forma{
+	font-family:Arial;
+	color:blue;
+}
+#show{
+	 
+	width:400px; 
+	height:300px;
+	border:1px solid blue;
+}
+#show ul li{
+	display:block;
+	padding:10px; 
+	margin:0px;
+}
+
+.admin{
+	width:600px;
+	height:100px;
+	float:right;
+	text-align:center;
+	font-family:Arial;
+	padding-left:30px;
+}
+.admin a{
+	text-decoration:none;
+	color:black;
+}
+.tabela_korisnik{
+	padding:25px;
+}
+
+.tabela_korisnik tr{
+	border:none;
+}
+.tabela_korisnik td{
+	padding:10px;
+}
+.red_italic{
+	color:red;
+	font-size:20px;
+}
+.red{
+	color:red;
+	
+}
+#podaci_user{
+	width:600px;
+	height:190px;
+	margin-left:250px;
+	margin-top:50px;
+	padding-left:30px;
+	font-weight:bold;
+}
+#admin_sredina1{
+	width:300px;
+	margin-left:500px;
+	margin-top:30px;
+	font-size:17px;
+}
+#admin_sredina{
+	width:300px;
+	height:200px;
+	margin-left:500px;
+	margin-top:30px;
+	font-size:17px;
+}
+#admin_sredina a{
+	text-decoration:underline;
+	display:block;
+	color:black;
+	text-align:center;
+}
+.green{
+	color:green;
+	text-align:left;
+}
+.center{
+	text-align:center;
+}
+.paddingTH{
+	padding:5px;
+}
+#admin_sredina_dodavanje{
+	margin-left:500px;
+}
+#admin_sredina_dodavanje table td{
+	padding:10px;
+}
+#slika_welcome{
+	width:70%;
+	height:400px;
+	margin-left:200px;
+	margin-top:0px;
+	border:2px solid gray;
+	background-image:url(img/welcome.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 400px;
+}
+.red_mail{
+	color:red;
+	font-weight:bold;
+	padding-left:5px;
+}
+.green_mail{
+	color:green;
+	font-weight:bold;
+	padding-left:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
